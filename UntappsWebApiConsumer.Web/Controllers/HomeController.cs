@@ -6,27 +6,27 @@ using System.Web.Mvc;
 
 namespace UntappdWebApiConsumer.Web.Controllers
 {
-	public class HomeController : Controller
-	{
-		public ActionResult Index()
-		{
-			ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+    public partial class HomeController : Controller
+    {
+        public virtual ActionResult Index()
+        {
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
-			return View();
-		}
+            return View();
+        }
 
-		public ActionResult About()
-		{
-			ViewBag.Message = "Your app description page.";
+        public virtual ActionResult About()
+        {
+            ViewBag.Message = "Your app description page.";
 
-			return View();
-		}
+            return View();
+        }
 
-		public ActionResult Contact()
-		{
-			ViewBag.Message = "Your contact page.";
+        public virtual ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
 
-			return View();
-		}
-	}
+            return View();
+        }
+    }
 }

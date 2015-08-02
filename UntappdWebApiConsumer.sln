@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntappdWebApiConsumer.Tests", "UntappsWebApiConsumer.Tests\UntappdWebApiConsumer.Tests.csproj", "{DB886BD6-D112-4262-99F0-028098E50242}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntappdWebApiConsumer.Web", "UntappsWebApiConsumer.Web\UntappdWebApiConsumer.Web.csproj", "{9780A8A1-A452-4920-8B74-2F4B0429DE37}"
